@@ -26,7 +26,7 @@ def enc():
                 Led5.write(1)
                 Led6.write(1)
                 print("Led1:HIGH; Led2:HIGH; Led3:HIGH; Led4:HIGH; Led5:HIGH; Led6:HIGH")
-                #time.sleep(.06)
+                
         else:
                 print("Led1:LOW; Led2:LOW; Led3:LOW; Led4:LOW; Led5:LOW; Led6:LOW")
                 Led1.write(0)
@@ -35,7 +35,7 @@ def enc():
                 Led4.write(0)
                 Led5.write(0)
                 Led6.write(0)
-                #time.sleep(.06)
+                
 
 while True:
         enc()
