@@ -11,7 +11,7 @@ Led5 = ard.digital[10]
 Led6 = ard.digital[11]
 
 while True:
-    #MITAD DE LOS LEDS 5 AL 7
+    #LEDs del 11 al 9
     Led6.write(1)
     Led5.write(1)
     Led4.write(1)
@@ -20,7 +20,7 @@ while True:
     Led5.write(0)
     Led4.write(0)
     
-    #LA OTRA MITAD DE LOS LEDS 8 AL 10
+    #LEDs del 8 al 6
     Led3.write(1)
     Led2.write(1)
     Led1.write(1)
